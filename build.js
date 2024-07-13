@@ -50,8 +50,19 @@ if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir);
 } else {
     // Clear the output directory if it exists
+    console.log("cleaning"+ outputDir)
     clearDirectory(outputDir);
 }
+
+const outputDir2 = path.join(__dirname, 'json');
+if (!fs.existsSync(outputDir2)) {
+    fs.mkdirSync(outputDir2);
+} else {
+    // Clear the output directory if it exists
+    console.log("cleaning"+ outputDir2)
+    clearDirectory(outputDir2);
+}
+
 
 // Iterate over each card and create a JSON file
 Object.keys(cards).forEach(cardKey => {
@@ -71,7 +82,7 @@ Object.keys(cards).forEach(cardKey => {
         power: card.power,
         source: getSourceLabel(source)
     };
-    fs.writeFileSync(path.join(outputDir, `${cardKey}.json`), JSON.stringify(cardData, null, 2));
+    fs.writeFileSync(path.join(outputDir2, `${cardKey}.json`), JSON.stringify(cardData, null, 2));
     fs.writeFileSync(path.join(outputDir, `${cardKey}`), `Cost: ${cardData.cost} - Power: ${cardData.power} - ${cardData.description}`);
 });
 

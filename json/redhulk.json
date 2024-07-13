@@ -1,0 +1,6 @@
+{
+  "description": "When your opponent ends a turn with unspent Energy, +3 Power. (if in hand or in play)",
+  "cost": "6",
+  "power": "10",
+  "source": "Pool 5"
+}

@@ -1,0 +1,6 @@
+{
+  "description": "When this is destroyed, add a copy to each other location.",
+  "cost": "5",
+  "power": "6",
+  "source": "Pool 4"
+}

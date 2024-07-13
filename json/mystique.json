@@ -1,0 +1,6 @@
+{
+  "description": "On Reveal: If the last card you played has an Ongoing, copy its text. (if it's in play)",
+  "cost": "3",
+  "power": "0",
+  "source": "Pool 3"
+}

@@ -1,0 +1,6 @@
+{
+  "description": "On Reveal: Give a card in your opponent's hand +1 Cost. (maximum 6)",
+  "cost": "1",
+  "power": "2",
+  "source": "Pool 2"
+}

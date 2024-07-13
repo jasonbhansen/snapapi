@@ -1,0 +1,6 @@
+{
+  "description": "After each turn, gain +1 Power for each unspent Energy.",
+  "cost": "1",
+  "power": "0",
+  "source": "Pool 2"
+}

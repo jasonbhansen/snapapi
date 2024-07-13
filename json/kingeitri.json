@@ -1,0 +1,6 @@
+{
+  "description": "On Reveal: Give the next card you play +4 Power.",
+  "cost": "5",
+  "power": "3",
+  "source": "Pool 5"
+}

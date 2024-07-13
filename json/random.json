@@ -1,0 +1,6 @@
+{
+  "description": "On Reveal: Set this card's Power equal to the Power of a random card in your deck.",
+  "cost": "4",
+  "power": "0",
+  "source": ""
+}

@@ -1,0 +1,6 @@
+{
+  "description": "When this is discarded, jumps to your lowest-Power location. (that isn't full)",
+  "cost": "4",
+  "power": "7",
+  "source": "Pool 5"
+}

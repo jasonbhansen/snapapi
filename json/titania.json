@@ -1,0 +1,6 @@
+{
+  "description": "After ANY card is played here, this card switches sides.",
+  "cost": "1",
+  "power": "5",
+  "source": "Pool 3"
+}
