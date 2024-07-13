@@ -1,0 +1,6 @@
+{
+  "description": "Costs 1 less for each unspent Energy last turn.",
+  "cost": "6",
+  "power": "10",
+  "source": "Pool 3"
+}

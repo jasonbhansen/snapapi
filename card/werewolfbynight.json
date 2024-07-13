@@ -1,0 +1,6 @@
+{
+  "description": "After you play a card, move there to gain +2 Power if it has an On Reveal.",
+  "cost": "3",
+  "power": "1",
+  "source": "Pool 5"
+}

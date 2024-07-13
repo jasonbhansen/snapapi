@@ -1,0 +1,6 @@
+{
+  "description": "After each turn, +3 Power if you played (exactly) 2 cards.",
+  "cost": "2",
+  "power": "1",
+  "source": "Pool 5"
+}

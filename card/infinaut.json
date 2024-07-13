@@ -1,0 +1,6 @@
+{
+  "description": "If you played a card last turn, you can't play this.",
+  "cost": "6",
+  "power": "20",
+  "source": "Pool 2"
+}

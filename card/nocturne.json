@@ -1,0 +1,6 @@
+{
+  "description": "You can move this once. When this moves, replace its location with a random new one.",
+  "cost": "3",
+  "power": "5",
+  "source": "Pool 5"
+}

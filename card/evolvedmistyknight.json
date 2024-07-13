@@ -1,0 +1,6 @@
+{
+  "description": "When you end a turn with unspent Energy, give one of your other cards +1 Power.",
+  "cost": "1",
+  "power": "2",
+  "source": "Starter Card"
+}

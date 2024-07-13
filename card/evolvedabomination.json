@@ -1,0 +1,6 @@
+{
+  "description": "Costs 1 less for each enemy card in play that's afflicted with negative Power.",
+  "cost": "5",
+  "power": "9",
+  "source": "Starter Card"
+}

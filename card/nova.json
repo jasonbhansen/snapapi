@@ -1,0 +1,6 @@
+{
+  "description": "When this is destroyed, give your cards +1 Power.",
+  "cost": "1",
+  "power": "1",
+  "source": "Pool 1"
+}

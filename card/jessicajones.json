@@ -1,0 +1,6 @@
+{
+  "description": "On Reveal: If you don't play a card at this location next turn, +4 Power.",
+  "cost": "4",
+  "power": "5",
+  "source": "Level 1-14"
+}

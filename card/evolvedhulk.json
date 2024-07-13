@@ -1,0 +1,6 @@
+{
+  "description": "When you end a turn with unspent Energy, +2 Power. (if in hand or in play)",
+  "cost": "6",
+  "power": "12",
+  "source": "Starter Card"
+}
