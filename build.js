@@ -72,6 +72,7 @@ Object.keys(cards).forEach(cardKey => {
         source: getSourceLabel(source)
     };
     fs.writeFileSync(path.join(outputDir, `${cardKey}.json`), JSON.stringify(cardData, null, 2));
+    fs.writeFileSync(path.join(outputDir, `${cardKey}`), `Cost: ${cardData.cost} - Power: ${cardData.power} - ${cardData.description}`);
 });
 
 console.log('JSON files created for each card.');

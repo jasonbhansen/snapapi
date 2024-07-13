@@ -1,6 +1,0 @@
-{
-  "description": "At the start of the game, +1 Max Energy. Shuffle 12 random cards into your deck.",
-  "cost": "7",
-  "power": "7",
-  "source": "Pool 5"
-}

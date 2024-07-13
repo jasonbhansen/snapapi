@@ -1,6 +1,0 @@
-{
-  "description": "On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -3 Power.",
-  "cost": "2",
-  "power": "3",
-  "source": "Pool 5"
-}

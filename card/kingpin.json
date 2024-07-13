@@ -1,6 +1,0 @@
-{
-  "description": "When an enemy card moves here, afflict it with -2 Power.",
-  "cost": "1",
-  "power": "2",
-  "source": "Pool 3"
-}

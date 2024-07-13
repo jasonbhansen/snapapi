@@ -1,6 +1,0 @@
-{
-  "description": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
-  "cost": "1",
-  "power": "2",
-  "source": "Pool 5"
-}
