@@ -5,6 +5,7 @@ async function fetchData() {
         method: "GET",
         mode: "no-cors"
     });
+    console.log(response)
     const data = await response.json();
     return data;
 }
