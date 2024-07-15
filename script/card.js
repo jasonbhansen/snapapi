@@ -1,6 +1,6 @@
 // Function to fetch JSON data from the API
 async function fetchData() {
-    const options = {
+    let options = {
         method: 'GET',
         mode: 'no-cors'
       };
@@ -20,7 +20,7 @@ function getQueryParam(param) {
 // Function to update the results
 function updateResults(query, data) {
     const keys = Object.keys(data);
-    const options = {
+    let options = {
         includeScore: true,
         keys: ['key']
     };
