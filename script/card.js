@@ -1,8 +1,7 @@
 // Function to fetch JSON data using a CORS proxy
 async function fetchData() {
-    const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
     const targetUrl = 'https://marvelsnap.pro/snap/do.php?cmd=getcards';
-    const response = await fetch(proxyUrl + targetUrl, {
+    const response = await fetch(targetUrl, {
         method: "GET",
         mode: "no-cors"
     });
