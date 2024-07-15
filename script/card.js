@@ -48,7 +48,7 @@ function updateResults(query, data) {
 async function initSearch() {
     const query = getQueryParam('query');
     if (query) {
-        const data = await fetchData();
+        let data = await fetchData();
         updateResults(query, data);
     } else {
         document.getElementById('results').innerHTML = '<div>No query parameter provided</div>';
