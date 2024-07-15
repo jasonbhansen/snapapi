@@ -1,0 +1,6 @@
+{
+  "description": "When this is destroyed, return it to your hand. It costs 0.",
+  "cost": "3",
+  "power": "5",
+  "source": "Pool 2"
+}

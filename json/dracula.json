@@ -1,0 +1,6 @@
+{
+  "description": "At the end of the game, discard a card from your hand to gain its Power.",
+  "cost": "4",
+  "power": "1",
+  "source": "Pool 3"
+}

@@ -1,0 +1,6 @@
+{
+  "description": "After each turn, you lose 1 Max Energy and this gains +4 Power.",
+  "cost": "2",
+  "power": "0",
+  "source": "Pool 4"
+}

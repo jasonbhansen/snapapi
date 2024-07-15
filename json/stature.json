@@ -1,0 +1,6 @@
+{
+  "description": "Costs 1 if your opponent discarded a card this game.",
+  "cost": "5",
+  "power": "7",
+  "source": "Pool 3"
+}

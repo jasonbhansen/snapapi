@@ -1,0 +1,6 @@
+{
+  "description": "On Reveal: All cards played next turn don't reveal until the game ends.",
+  "cost": "4",
+  "power": "5",
+  "source": "Pool 5"
+}

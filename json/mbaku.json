@@ -1,0 +1,6 @@
+{
+  "description": "At the end of the game, this jumps from your deck to your lowest-Power location. (that isn't full)",
+  "cost": "1",
+  "power": "2",
+  "source": "Pool 3"
+}

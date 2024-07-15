@@ -1,0 +1,6 @@
+{
+  "description": "After you play a card, this gains +1 Power.",
+  "cost": "3",
+  "power": "1",
+  "source": "Pool 1"
+}

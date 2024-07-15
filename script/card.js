@@ -1,14 +1,3 @@
-// Function to fetch JSON data using a CORS proxy
-async function fetchData() {
-    const targetUrl = 'https://marvelsnap.pro/snap/do.php?cmd=getcards';
-    const response = await fetch(targetUrl, {
-        method: "GET",
-        mode: "no-cors"
-    });
-    console.log(response)
-    const data = await response.json();
-    return data;
-}
 
 // Function to get the query parameter from the URL
 function getQueryParam(param) {
@@ -47,7 +36,6 @@ function updateResults(query, data) {
 async function initSearch() {
     const query = getQueryParam('query');
     if (query) {
-        const data = await fetchData();
         updateResults(query, data);
     } else {
         document.getElementById('results').innerHTML = '<div>No query parameter provided</div>';

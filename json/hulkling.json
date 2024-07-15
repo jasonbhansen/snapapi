@@ -1,0 +1,6 @@
+{
+  "description": "At the start of the game, copy the text of a random 6-Cost card.",
+  "cost": "6",
+  "power": "11",
+  "source": "Pool 5"
+}

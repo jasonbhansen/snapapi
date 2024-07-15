@@ -1,0 +1,6 @@
+{
+  "description": "After each turn, draw a card if you're winning here.",
+  "cost": "5",
+  "power": "5",
+  "source": "Pool 3"
+}

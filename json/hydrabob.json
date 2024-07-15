@@ -1,0 +1,6 @@
+{
+  "description": "After each turn, this moves if a player Snapped.",
+  "cost": "1",
+  "power": "4",
+  "source": "Pool 5"
+}
