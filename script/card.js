@@ -43,7 +43,7 @@ async function initSearch() {
     if (query) {
         let matchedKey = findKey(query, cards);
         document.getRootNode().childNodes.forEach(c => c.remove());
-        document.append(`${JSON.stringify(cards[matchedKey], null, 2)}`)
+        document.body.innerText = `${JSON.stringify(cards[matchedKey], null, 2)}`;
     } else {
         document.getElementById('results').innerHTML = '<div>No query parameter provided</div>';
     }
