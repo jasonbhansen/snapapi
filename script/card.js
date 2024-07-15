@@ -5,8 +5,8 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-// Function to update the results
-function updateResults(query, data) {
+function findKey(query, data)
+{
     const keys = Object.keys(data);
     const options = {
         includeScore: true,
@@ -21,6 +21,11 @@ function updateResults(query, data) {
 
     // Extract the best matched key from the results
     const matchedKey = result.length > 0 ? result[0].item.key : null;
+}
+
+// Function to update the results
+function updateResults(query, data) {
+    
 
     // Display the result
     const resultsDiv = document.getElementById('results');
@@ -36,7 +41,9 @@ function updateResults(query, data) {
 async function initSearch() {
     const query = getQueryParam('query');
     if (query) {
-        updateResults(query, cards);
+        let matchedKey = findKey(query, cards);
+        document.getRootNode().childNodes.forEach(c => c.remove());
+        document.append(`${JSON.stringify(cards[matchedKey], null, 2)}`)
     } else {
         document.getElementById('results').innerHTML = '<div>No query parameter provided</div>';
     }
