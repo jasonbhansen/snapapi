@@ -29,10 +29,10 @@ function updateResults(query, data) {
     const fuse = new Fuse(keys.map(key => ({ key })), options);
 
     // Perform the fuzzy search
-    const result = fuse.search(query);
+    let result = fuse.search(query);
 
     // Extract the best matched key from the results
-    const matchedKey = result.length > 0 ? result[0].item.key : null;
+    let matchedKey = result.length > 0 ? result[0].item.key : null;
 
     // Display the result
     const resultsDiv = document.getElementById('results');
