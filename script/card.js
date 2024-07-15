@@ -36,7 +36,7 @@ function updateResults(query, data) {
 async function initSearch() {
     const query = getQueryParam('query');
     if (query) {
-        updateResults(query, data);
+        updateResults(query, cards);
     } else {
         document.getElementById('results').innerHTML = '<div>No query parameter provided</div>';
     }
