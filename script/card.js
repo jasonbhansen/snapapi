@@ -21,6 +21,7 @@ function findKey(query, data)
 
     // Extract the best matched key from the results
     const matchedKey = result.length > 0 ? result[0].item.key : null;
+    return matchedKey;
 }
 
 // Function to update the results
@@ -42,7 +43,6 @@ async function initSearch() {
     const query = getQueryParam('query');
     if (query) {
         let matchedKey = findKey(query, cards);
-        document.getRootNode().childNodes.forEach(c => c.remove());
         document.body.innerText = `${JSON.stringify(cards[matchedKey], null, 2)}`;
     } else {
         document.getElementById('results').innerHTML = '<div>No query parameter provided</div>';
