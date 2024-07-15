@@ -5,10 +5,10 @@ async function fetchData() {
         mode: 'no-cors'
       };
       
-    const response = await fetch("https://cors-anywhere.herokuapp.com/https://marvelsnap.pro/snap/do.php?cmd=getcards", {
+    var response = await fetch("https://cors-anywhere.herokuapp.com/https://marvelsnap.pro/snap/do.php?cmd=getcards", {
         "method": "GET"
     },options = options);
-    const data = await response.json();
+    var data = await response.json();
     return data;
 }
 // Function to get the query parameter from the URL
