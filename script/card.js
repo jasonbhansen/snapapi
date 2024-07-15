@@ -1,12 +1,11 @@
 // Function to fetch JSON data from the API
 async function fetchData() {
-    const response = await fetch("https://marvelsnap.pro/snap/do.php?cmd=getcards", {
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://marvelsnap.pro/snap/do.php?cmd=getcards", {
         "method": "GET"
     });
     const data = await response.json();
     return data;
 }
-
 // Function to get the query parameter from the URL
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
