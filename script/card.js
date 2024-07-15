@@ -1,7 +1,7 @@
 // Function to fetch JSON data from the API
 async function fetchData() {
       
-    var response = await fetch("https://cors-anywhere.herokuapp.com/https://marvelsnap.pro/snap/do.php?cmd=getcards", {
+    var response = await fetch("https://static2.marvelsnap.pro/snap/do.php?cmd=getcards", {
         method: 'GET',
         mode: 'no-cors'
       });
